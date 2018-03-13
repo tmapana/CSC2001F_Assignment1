@@ -1,0 +1,2 @@
+The dam name is Katse Dam, the FSC is 1519.1 and the most recent dam level is 63.8
+The number of comparison operations made for the search of Katse Dam is 82
