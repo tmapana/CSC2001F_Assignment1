@@ -1,0 +1,2 @@
+The dam name is Da Gama Dam, the FSC is 13.526 and the most recent dam level is 57.9
+The number of comparison operations made for the search of Da Gama Dam is 12
