@@ -40,12 +40,15 @@ public class DamArray
 
   public void printAllDams ()
   {
+    System.out.println("Printing all dams");
     for (int j=0; j<211; j++) { System.out.println(allDams[j]);}
   }
 
   public void printDam(String query)
   {
     int opCount = 0;
+    System.out.println("Searching for '" + query + "'...");
+
     for (int k=0; k<211; k++)
     {
       opCount++;
@@ -56,8 +59,7 @@ public class DamArray
         System.exit(0);
       }
     }
-
-    System.out.println("Dam is not in the list.");
+    System.out.println("Dam not found");
 
   }
 

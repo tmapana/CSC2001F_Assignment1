@@ -12,13 +12,13 @@ public class DamBSTApp
 
   public static void printDam (String name, BinarySearchTree<String> bst)
   {
-
     String output = (bst.find(name)).data;
     System.out.println(output);
   }
 
   public static void printAllDams (BinarySearchTree<String> bst)
   {
+    System.out.println("Printing all dams");
     bst.preOrder();
   }
 
@@ -54,12 +54,17 @@ public class DamBSTApp
 
     else
     {
+      System.out.println("Searching for '" + args[0] + "'...");
+
       try {
         printDam(args[0], binTree);
         System.out.println("The number of comparison operations made for the search of " + args[0] + " is " + binTree.getCount());
       }
 
-      catch (Exception e) { System.out.println(args[0] + " is not in the list!"); }
+      catch (Exception e)
+      {
+        System.out.println("Dam not found");
+      }
     }
   }
 

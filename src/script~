@@ -5,5 +5,5 @@
 # 13 March 2018
 
 for i in 211; do
-	head -i Dam_Levels.csv;
+	head --i Dam_Levels.csv;
 done
